@@ -9,6 +9,12 @@ public class PruebaMatematica{
         ob1.a = 35;
         ob1.b = 25;
         ob1.suma();   
+        //Crear metodos con parametros
+        int res = ob1.sumar();
+        System.out.println("res = " + res);
+        System.out.println("El resultado de la suma es: "+ob1.sumar());
+        
+        
     }
 
 }
